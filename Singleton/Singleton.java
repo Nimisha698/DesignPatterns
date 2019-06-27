@@ -1,3 +1,5 @@
+package Singleton;
+
 import java.util.*;
 class Singleton
 {
@@ -12,16 +14,5 @@ class Singleton
         if(single==null)
             return single=new Singleton();
         return single;
-    }
-}
-class X
-{
-    public static void main(String args[])
-    {
-        Singleton x=Singleton.getInstance();
-        Singleton y=Singleton.getInstance();
-        x.s="Hi";
-        System.out.println(x.s);
-        System.out.println(y.s);
     }
 }
