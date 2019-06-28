@@ -2,7 +2,7 @@ package factorydesignpattern;
 
 public class PlanFactory
 {
-    public Plan getPlan(String planType)
+    public Plan setPlan(String planType)
     {
         if(planType==null)
         {
