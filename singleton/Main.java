@@ -4,10 +4,10 @@ class SingletonImplementation
 {
     public static void main(String args[])
     {
-        Singleton x=Singleton.getInstance();
-        Singleton y=Singleton.getInstance();
-        x.s="Hi";
-        System.out.println(x.s);
-        System.out.println(y.s);
+        Singleton instance1=Singleton.getInstance();
+        Singleton instance2=Singleton.getInstance();
+        instance1.string="Hi";
+        System.out.println(instance1.string);
+        System.out.println(instance2.string);
     }
 }

@@ -2,11 +2,11 @@ package singleton;
 import java.util.*;
 class Singleton
 {
-    String s;
+    String string;
     private static Singleton single=null;
     private Singleton()
     {
-        s="String of Singleton class";
+        string="String of Singleton class";
     }
     public static Singleton getInstance()
     {
