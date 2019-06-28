@@ -12,7 +12,7 @@ public class FactoryPattern extends PlanFactory
         System.out.println("Enter the number of units");
         int units=sc.nextInt();
 
-        Plan plan=planFactory.getPlan(planType);
+        Plan plan=planFactory.setPlan(planType);
         plan.setRate();
         plan.calculateBill(units);
     }
