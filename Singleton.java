@@ -1,4 +1,5 @@
-package singleton;
+package singletonpackage;
+
 import java.util.*;
 class Singleton
 {

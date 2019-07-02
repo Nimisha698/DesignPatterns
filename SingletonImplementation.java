@@ -1,4 +1,5 @@
-package singleton;
+package singletonpackage;
+
 import java.util.*;
 class SingletonImplementation
 {
@@ -6,8 +7,8 @@ class SingletonImplementation
     {
         Singleton instance1=Singleton.getInstance();
         Singleton instance2=Singleton.getInstance();
-        instance1.string="Hi";
+        instance1.string="Changing the string";
         System.out.println(instance1.string);
-        System.out.println(instance2.string);
+        System.out.println(instance1.string);
     }
 }
